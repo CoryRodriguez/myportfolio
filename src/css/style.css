@@ -1,0 +1,183 @@
+/* Coolors Exported Palette - coolors.co/34403a-285238-138a36-04e824-18ff6d */
+/* HSL */
+/* RGB */
+html,
+body {
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+  width: 100%; }
+  html ::selection,
+  body ::selection {
+    background: #a91121;
+    /* WebKit/Blink Browsers */ }
+  html ::-moz-selection,
+  body ::-moz-selection {
+    background: #a91121;
+    /* Gecko Browsers */ }
+
+#nav-main {
+  background-color: #fff;
+  font-weight: 0;
+  font-size: 1.25rem; }
+  #nav-main .nav-link {
+    color: #a91121; }
+  #nav-main a:hover {
+    color: #444; }
+  #nav-main .navbar-brand {
+    color: #a91121;
+    font-size: 1.5rem; }
+  #nav-main .navbar-toggler {
+    border-color: #a91121; }
+  #nav-main .navbar-toggler {
+    outline: none; }
+  #nav-main .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(169, 17, 33, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
+#landing {
+  position: relative;
+  background: url(../img/cclanding.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  background-color: #a91121;
+  height: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  width: 100%;
+  /* particleground demo */ }
+  #landing .overlay {
+    background-color: rgba(169, 17, 33, 0.9); }
+  #landing .tall {
+    height: 100%; }
+  #landing h1 {
+    font-size: 4rem;
+    font-weight: 600; }
+  #landing .fa {
+    color: #ffbc00; }
+  #landing a:hover {
+    background-color: #777; }
+  #landing * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+
+#about {
+  color: #a91121;
+  background-color: grey; }
+
+#skills {
+  background-color: #fff;
+  color: #a91121; }
+  #skills h3 {
+    color: #a91121;
+    margin-top: .5rem;
+    margin-bottom: .75rem; }
+  #skills p {
+    color: #333; }
+  #skills hr {
+    width: 200px;
+    height: 2px; }
+
+#projects {
+  overflow-x: hidden; }
+  #projects h1 {
+    color: #a91121; }
+  #projects hr {
+    width: 200px;
+    background-color: #fff; }
+  #projects img {
+    border: 1px solid black; }
+  #projects .ovrly14 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+  #projects .ovrly14 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0; }
+  #projects .ovrly14 .ovrly {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    width: 100%;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    -o-transition: -o-transform 0.3s;
+    transition: transform 0.3s; }
+  #projects .ovrly14 .buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+  #projects .ovrly14 .buttons .fa {
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    color: rgba(50, 50, 50, 0.9);
+    display: inline-block;
+    margin: 0 1px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all 0.2s 0.3s;
+    -moz-transition: all 0.2s 0.3s;
+    -o-transition: all 0.2s 0.3s;
+    transition: all 0.2s 0.3s;
+    opacity: 0; }
+  #projects .ovrly14:hover .ovrly {
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(); }
+  #projects .ovrly14:hover .buttons .fa {
+    opacity: 1; }
+  #projects .blur {
+    filter: blur(1px);
+    overflow: hidden; }
+  #projects .blur-on-hover:hover {
+    filter: blur(4px); }
+
+#contact {
+  overflow-x: hidden; }
+  #contact h2 {
+    color: #a91121; }
+  #contact .btn-main {
+    background-color: #a91121;
+    color: #e0e0e0; }
+  #contact button:hover {
+    cursor: pointer;
+    opacity: .8; }
+  #contact i {
+    color: #a91121; }
+  #contact i:hover {
+    color: #a91121;
+    opacity: .7; }
+
+#modals .borders {
+  border: 1px solid black; }
+
+#modals .modal-title {
+  font-size: 1.5rem; }
+
+#modals .btn-primary {
+  background-color: #a91121; }
