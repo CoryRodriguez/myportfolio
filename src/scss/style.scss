@@ -131,6 +131,10 @@ body {
 #about {
     color: $red; //background-color: #333;
     background-color: grey;
+    
+    h4 {
+        line-height: 2.2rem;
+    }
 }
 
 #skills {
@@ -165,6 +169,7 @@ body {
     img {
         border: 1px solid black;
     }
+
     .ovrly14 {
         width: 100%;
         overflow: hidden;

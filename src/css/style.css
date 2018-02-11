@@ -66,6 +66,8 @@ body {
 #about {
   color: #a91121;
   background-color: grey; }
+  #about h4 {
+    line-height: 2.2rem; }
 
 #skills {
   background-color: #fff;
