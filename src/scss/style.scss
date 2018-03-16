@@ -1,6 +1,5 @@
 /* Coolors Exported Palette - coolors.co/34403a-285238-138a36-04e824-18ff6d */
 
-
 /* HSL */
 
 $color1: hsla(150%, 10%, 23%, 1);
@@ -20,47 +19,50 @@ $white: #fff;
 $yellow: #e9c505;
 $red: rgba(169, 17, 33, 1);
 $green: rgba(51, 153, 102, 1);
-$theme-colors: ( primary: rgba(254, 215, 102, 1));
+$green2: #b8ffda;
+$theme-colors: (primary: rgba(254, 215, 102, 1));
 $bg: rgba(0, 0, 0, 0.2);
+$navText: black;
+
 html,
 body {
-    font-family: 'Raleway', sans-serif;
-    height: 100%;
-    width: 100%; //overflow-x: hidden;
-     ::selection {
-        background: $green;
-        /* WebKit/Blink Browsers */
-    }
-     ::-moz-selection {
-        background: $green;
-        /* Gecko Browsers */
-    }
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+  width: 100%; //overflow-x: hidden;
+  ::selection {
+    background: $green;
+    /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: $green;
+    /* Gecko Browsers */
+  }
 }
 
 #nav-main {
-    // border-bottom: 1px solid #000;
-    background-color: $white;
-    font-weight: 0;
-    font-size: 1.25rem;
-    .nav-link {
-        color: $green;
-    }
-    a:hover {
-        color: #444;
-    }
-    .navbar-brand {
-        color: $green;
-        font-size: 1.5rem;
-    }
-    .navbar-toggler {
-        border-color: $green;
-    }
-    .navbar-toggler {
-        outline: none;
-    }
-    .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(169, 17, 33, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    }
+  // border-bottom: 1px solid #000;
+  background-color: $green;
+  font-weight: 0;
+  font-size: 1.25rem;
+  .nav-link {
+    color: $navText;
+  }
+  a:hover {
+    color: white;
+  }
+  .navbar-brand {
+    color: $navText;
+    font-size: 1.5rem;
+  }
+  .navbar-toggler {
+    border-color: $navText;
+  }
+  .navbar-toggler {
+    outline: none;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
 }
 
 // #particles {
@@ -81,207 +83,216 @@ body {
 // 	}
 // }
 #landing {
-    position: relative;
-    background: url(../img/cclanding.jpg) no-repeat; //background-position: center 50%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; //min-height: 926px;
-    //max-height:100%;
-    //max-width:100%;
-    //background-attachment: fixed;
-    //margin: 0;
-    //min-height:100%;
-    color: #fff;
-    background-color: $green;
-    height: 100%;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    width: 100%;
-    .overlay {
-        background-color: rgba(169, 17, 33, .9)
-    }
-    .tall {
-        height: 100%; //width:100%;
-        //position: absolute;
-    } // .box{
-    // 	margin-top: 11rem;
-    // }
-    h1 {
-        font-size: 4rem;
-        font-weight: 600;
-    }
-    .fa {
-        color: #ffbc00;
-    } // .btn-secondary {
-    // 	background-color: #444;
-    // 	opacity: .9;
-    // 	border-radius: 0px;
-    // }
-    a:hover {
-        background-color: #777;
-    }
-    /* particleground demo */
-    * {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-    }
+  position: relative;
+  //background: url(../img/cclanding.jpg) no-repeat; //background-position: center 50%;
+  background: url(../img/codepic.jpeg) no-repeat; //background-position: center 50%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; //min-height: 926px;
+  //max-height:100%;
+  //max-width:100%;
+  //background-attachment: fixed;
+  //margin: 0;
+  //min-height:100%;
+  color: white;
+  background-color: $green;
+  height: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  width: 100%;
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .tall {
+    height: 100%; //width:100%;
+    //position: absolute;
+  } // .box{
+  // 	margin-top: 11rem;
+  // }
+  h1 {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  .fa {
+    color: #ffbc00;
+  } // .btn-secondary {
+  // 	background-color: #444;
+  // 	opacity: .9;
+  // 	border-radius: 0px;
+  // }
+  a:hover {
+    background-color: #777;
+  }
+  /* particleground demo */
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
 }
 
 #about {
-    color: $green; //background-color: #333;
-    background-color: grey;
-    
-    h4 {
-        line-height: 2.2rem;
-    }
+  color: black; //background-color: #333;
+  background-color: grey;
+
+  h4 {
+    line-height: 2.2rem;
+  }
 }
 
 #skills {
-    background-color: $white;
-    color: $green;
-    h3 {
-        color: $green;
-        margin-top: .5rem;
-        margin-bottom: .75rem;
-    }
-    p {
-        color: #333; //margin-top: 1rem;
-    }
-    hr {
-        width: 200px;
-        height: 2px;
-    }
+  background-color: $green;
+  color: #343a40;
+
+  h1 {
+    color: black;
+  }
+  h3 {
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+  p {
+    color: black; //margin-top: 1rem;
+  }
+  hr {
+    width: 200px;
+    height: 2px;
+  }
 }
 
 #projects {
-    //border-top: 15px solid #333;
-    // padding-top: 26px;
-    // margin-top: -26px;
-    overflow-x: hidden;
-    h1 {
-        color: $green;
-    }
-    hr {
-        width: 200px;
-        background-color: #fff;
-    }
-    img {
-        border: 1px solid black;
-    }
+  //border-top: 15px solid #333;
+  // padding-top: 26px;
+  // margin-top: -26px;
+  background-color: $green;
+  overflow-x: hidden;
 
-    .ovrly14 {
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-    }
-    .ovrly14 img {
-        position: relative;
-        width: 100%;
-        top: 0;
-        left: 0;
-    }
-    .ovrly14 .ovrly {
-        position: absolute;
-        background: rgba(0, 0, 0, 0.5);
-        height: 100%;
-        left: 0;
-        top: 0;
-        -webkit-transform: scaleY(0);
-        -moz-transform: scaleY(0);
-        -ms-transform: scaleY(0);
-        -o-transform: scaleY(0);
-        transform: scaleY(0);
-        width: 100%;
-        -webkit-transition: -webkit-transform 0.3s;
-        -moz-transition: -moz-transform 0.3s;
-        -o-transition: -o-transform 0.3s;
-        transition: transform 0.3s;
-    }
-    .ovrly14 .buttons {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    }
-    .ovrly14 .buttons .fa {
-        background: rgba(256, 256, 256, 0.8);
-        -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
-        -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
-        box-shadow: 0 0 1px rgba(0, 0, 0, 0.3); // -webkit-border-radius: 50%;
-        // -moz-border-radius: 50%;
-        // border-radius: 50%;
-        color: rgba(50, 50, 50, 0.9);
-        display: inline-block;
-        margin: 0 1px;
-        line-height: 40px;
-        font-size: 16px;
-        text-align: center;
-        text-decoration: none; // width: 40px;
-        // height: 40px;
-        -webkit-transition: all 0.2s 0.3s;
-        -moz-transition: all 0.2s 0.3s;
-        -o-transition: all 0.2s 0.3s;
-        transition: all 0.2s 0.3s;
-        opacity: 0;
-    }
-    .ovrly14:hover .ovrly {
-        -webkit-transform: scaleY(1);
-        -moz-transform: scaleY(1);
-        -ms-transform: scaleY(1);
-        -o-transform: scaleY(1);
-        transform: scaleY();
-    }
-    .ovrly14:hover .buttons .fa {
-        opacity: 1;
-    }
-    .blur {
-        filter: blur(1px);
-        overflow: hidden;
-    }
-    .blur-on-hover:hover {
-        filter: blur(4px);
-    }
+  h1 {
+    color: black;
+  }
+  hr {
+    width: 200px;
+    background-color: #fff;
+  }
+  img {
+    border: 1px solid black;
+  }
+
+  .ovrly14 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  .ovrly14 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .ovrly14 .ovrly {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    width: 100%;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    -o-transition: -o-transform 0.3s;
+    transition: transform 0.3s;
+  }
+  .ovrly14 .buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .ovrly14 .buttons .fa {
+    background: rgba(256, 256, 256, 0.8);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3); // -webkit-border-radius: 50%;
+    // -moz-border-radius: 50%;
+    // border-radius: 50%;
+    color: rgba(50, 50, 50, 0.9);
+    display: inline-block;
+    margin: 0 1px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none; // width: 40px;
+    // height: 40px;
+    -webkit-transition: all 0.2s 0.3s;
+    -moz-transition: all 0.2s 0.3s;
+    -o-transition: all 0.2s 0.3s;
+    transition: all 0.2s 0.3s;
+    opacity: 0;
+  }
+  .ovrly14:hover .ovrly {
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY();
+  }
+  .ovrly14:hover .buttons .fa {
+    opacity: 1;
+  }
+  .blur {
+    filter: blur(1px);
+    overflow: hidden;
+  }
+  .blur-on-hover:hover {
+    filter: blur(4px);
+  }
 }
 
 #contact {
-    overflow-x: hidden;
-    h2 {
-        color: $green;
-    }
-    .btn-main {
-        background-color: $green;
-        color: #e0e0e0;
-    }
-    button:hover {
-        cursor: pointer;
-        opacity: .8;
-    }
-    i {
-        color: $green;
-    }
-    i:hover {
-        color: $green;
-        opacity: .7;
-    }
+    background-color: $green;
+  overflow-x: hidden;
+  h2 {
+    color: $green;
+  }
+  .btn-main {
+    //background-color: $green;
+    color: #e0e0e0;
+  }
+  button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  i {
+    color: $green;
+  }
+  i:hover {
+    color: $green;
+    opacity: 0.7;
+  }
 }
 
 #modals {
-    .borders {
-        border: 1px solid black;
-    }
-    .modal-title{
-        font-size: 1.5rem;
-    }
-    .btn-primary{
-        background-color: $green;
-    }
+  .borders {
+    border: 1px solid black;
+  }
+  .modal-title {
+    font-size: 1.5rem;
+  }
+  .btn-primary {
+    background-color: $green;
+  }
 }
