@@ -19,6 +19,7 @@ $color5: rgba(24, 255, 109, 1);
 $white: #fff;
 $yellow: #e9c505;
 $red: rgba(169, 17, 33, 1);
+$green: rgba(51, 153, 102, 1);
 $theme-colors: ( primary: rgba(254, 215, 102, 1));
 $bg: rgba(0, 0, 0, 0.2);
 html,
@@ -27,11 +28,11 @@ body {
     height: 100%;
     width: 100%; //overflow-x: hidden;
      ::selection {
-        background: $red;
+        background: $green;
         /* WebKit/Blink Browsers */
     }
      ::-moz-selection {
-        background: $red;
+        background: $green;
         /* Gecko Browsers */
     }
 }
@@ -42,17 +43,17 @@ body {
     font-weight: 0;
     font-size: 1.25rem;
     .nav-link {
-        color: $red;
+        color: $green;
     }
     a:hover {
         color: #444;
     }
     .navbar-brand {
-        color: $red;
+        color: $green;
         font-size: 1.5rem;
     }
     .navbar-toggler {
-        border-color: $red;
+        border-color: $green;
     }
     .navbar-toggler {
         outline: none;
@@ -92,7 +93,7 @@ body {
     //margin: 0;
     //min-height:100%;
     color: #fff;
-    background-color: $red;
+    background-color: $green;
     height: 100%;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -129,7 +130,7 @@ body {
 }
 
 #about {
-    color: $red; //background-color: #333;
+    color: $green; //background-color: #333;
     background-color: grey;
     
     h4 {
@@ -139,9 +140,9 @@ body {
 
 #skills {
     background-color: $white;
-    color: $red;
+    color: $green;
     h3 {
-        color: $red;
+        color: $green;
         margin-top: .5rem;
         margin-bottom: .75rem;
     }
@@ -160,7 +161,7 @@ body {
     // margin-top: -26px;
     overflow-x: hidden;
     h1 {
-        color: $red;
+        color: $green;
     }
     hr {
         width: 200px;
@@ -254,10 +255,10 @@ body {
 #contact {
     overflow-x: hidden;
     h2 {
-        color: $red;
+        color: $green;
     }
     .btn-main {
-        background-color: $red;
+        background-color: $green;
         color: #e0e0e0;
     }
     button:hover {
@@ -265,10 +266,10 @@ body {
         opacity: .8;
     }
     i {
-        color: $red;
+        color: $green;
     }
     i:hover {
-        color: $red;
+        color: $green;
         opacity: .7;
     }
 }
@@ -281,6 +282,6 @@ body {
         font-size: 1.5rem;
     }
     .btn-primary{
-        background-color: $red;
+        background-color: $green;
     }
 }

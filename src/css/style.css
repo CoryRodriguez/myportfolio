@@ -8,11 +8,11 @@ body {
   width: 100%; }
   html ::selection,
   body ::selection {
-    background: #a91121;
+    background: #339966;
     /* WebKit/Blink Browsers */ }
   html ::-moz-selection,
   body ::-moz-selection {
-    background: #a91121;
+    background: #339966;
     /* Gecko Browsers */ }
 
 #nav-main {
@@ -20,14 +20,14 @@ body {
   font-weight: 0;
   font-size: 1.25rem; }
   #nav-main .nav-link {
-    color: #a91121; }
+    color: #339966; }
   #nav-main a:hover {
     color: #444; }
   #nav-main .navbar-brand {
-    color: #a91121;
+    color: #339966;
     font-size: 1.5rem; }
   #nav-main .navbar-toggler {
-    border-color: #a91121; }
+    border-color: #339966; }
   #nav-main .navbar-toggler {
     outline: none; }
   #nav-main .navbar-toggler-icon {
@@ -41,7 +41,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   color: #fff;
-  background-color: #a91121;
+  background-color: #339966;
   height: 100%;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -64,16 +64,16 @@ body {
     box-sizing: border-box; }
 
 #about {
-  color: #a91121;
+  color: #339966;
   background-color: grey; }
   #about h4 {
     line-height: 2.2rem; }
 
 #skills {
   background-color: #fff;
-  color: #a91121; }
+  color: #339966; }
   #skills h3 {
-    color: #a91121;
+    color: #339966;
     margin-top: .5rem;
     margin-bottom: .75rem; }
   #skills p {
@@ -85,7 +85,7 @@ body {
 #projects {
   overflow-x: hidden; }
   #projects h1 {
-    color: #a91121; }
+    color: #339966; }
   #projects hr {
     width: 200px;
     background-color: #fff; }
@@ -162,17 +162,17 @@ body {
 #contact {
   overflow-x: hidden; }
   #contact h2 {
-    color: #a91121; }
+    color: #339966; }
   #contact .btn-main {
-    background-color: #a91121;
+    background-color: #339966;
     color: #e0e0e0; }
   #contact button:hover {
     cursor: pointer;
     opacity: .8; }
   #contact i {
-    color: #a91121; }
+    color: #339966; }
   #contact i:hover {
-    color: #a91121;
+    color: #339966;
     opacity: .7; }
 
 #modals .borders {
@@ -182,4 +182,4 @@ body {
   font-size: 1.5rem; }
 
 #modals .btn-primary {
-  background-color: #a91121; }
+  background-color: #339966; }
