@@ -42,6 +42,7 @@ body {
 #nav-main {
   // border-bottom: 1px solid #000;
   background-color: $green;
+  border-bottom: 1px solid black;
   font-weight: 0;
   font-size: 1.25rem;
   .nav-link {
@@ -144,7 +145,7 @@ body {
 
 #skills {
   background-color: $green;
-  color: #343a40;
+  color: black;
 
   h1 {
     color: black;
@@ -263,7 +264,7 @@ body {
 }
 
 #contact {
-    background-color: $green;
+background-color: $green;
   overflow-x: hidden;
   h2 {
     color: $green;
@@ -274,7 +275,6 @@ body {
   }
   button:hover {
     cursor: pointer;
-    opacity: 0.8;
   }
   i {
     color: $green;
