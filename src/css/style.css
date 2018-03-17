@@ -168,6 +168,8 @@ body {
   overflow-x: hidden; }
   #contact h2 {
     color: #339966; }
+  #contact a {
+    text-decoration: none; }
   #contact .btn-main {
     color: #e0e0e0; }
   #contact button:hover {
