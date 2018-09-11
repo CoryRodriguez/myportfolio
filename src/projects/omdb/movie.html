@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>OMDB Database</title>
+</head>
+
+<body class="bg-warning">
+
+  <div class="container text-center">
+    <a href="index.html">
+      <h1 class="mt-5 display-2 text-dark">
+        <img class="img-fluid sm-img" src="./img/favicon.png"> OMDB
+      </h1>
+    </a>
+    <form class="form-inline">
+      <div class="form-group">
+        <input id="movieName" class="form-control d-none" type="text" placeholder="Movie Name">
+        <a href="index.html" class="text-dark fa fa-3x fa-arrow-circle-left"></a>
+      </div>
+    </form>
+
+    <div class="mt-5 text-center">
+      <div id="singleMovie" class="">
+        <!-- removed row class -->
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scrollreveal.min.js"></script>
+  <script src="js/search.js"></script>
+  <script>getMovie();</script>
+</body>
+
+</html>

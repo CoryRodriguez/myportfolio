@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>OMDB Database</title>
+</head>
+
+<body class="bg-warning">
+
+  <div class="container text-center">
+    <a href="index.html">
+      <h1 class="mt-5 display-2 text-dark">
+        <img class="img-fluid sm-img" src="./img/favicon.png"> OMDB
+      </h1>
+    </a>
+
+    <form class="form-inline justify-content-center">
+      <div class="form-group mx-sm-3 mb-2">
+        <label for="movieName" class="sr-only">Password</label>
+        <input id="movieName" class="form-control" type="text" placeholder="Movie Name">
+      </div>
+      <button id="submitBtn" type="submit" class="btn btn-dark mb-2">Submit</button>
+    </form>
+
+    <div class="mt-5 text-center">
+      <div id="output" class="row">
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scrollreveal.min.js"></script>
+  <script src="js/search.js"></script>
+</body>
+
+</html>
