@@ -3,6 +3,11 @@
  * @author Jonathan Nicol - @mrjnicol
  */
 
+$("#particle-button").click(function () {
+  particlesJS.load('particle-div', 'particle-cfg.json');
+});
+
+
 document.addEventListener('DOMContentLoaded', function () {
   particleground(document.getElementById('particles'), {
     dotColor: '#5cbdaa',
@@ -11,6 +16,8 @@ document.addEventListener('DOMContentLoaded', function () {
   var intro = document.getElementById('intro');
   intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
 }, false);
+
+
 
 
 /*

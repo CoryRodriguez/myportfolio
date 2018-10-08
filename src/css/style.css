@@ -8,48 +8,50 @@ body {
   width: 100%; }
   html ::selection,
   body ::selection {
-    background: #339966;
+    background: #E0E4CC;
     /* WebKit/Blink Browsers */ }
   html ::-moz-selection,
   body ::-moz-selection {
-    background: #339966;
+    background: #E0E4CC;
     /* Gecko Browsers */ }
 
 #nav-main {
-  background-color: #339966;
-  border-bottom: 1px solid black;
+  background-color: #E0E4CC;
+  border-bottom: 1px solid #63614F;
   font-weight: 0;
   font-size: 1.25rem; }
   #nav-main .nav-link {
-    color: black; }
+    color: #222; }
   #nav-main a:hover {
-    color: white; }
+    color: #e15e00; }
   #nav-main .navbar-brand {
-    color: black;
-    font-size: 1.5rem; }
+    color: #222;
+    font-size: 1.6rem;
+    font-weight: 500; }
   #nav-main .navbar-toggler {
-    border-color: black; }
+    border-color: #96c5c2;
+    border-width: 2px; }
   #nav-main .navbar-toggler {
     outline: none; }
   #nav-main .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(52, 58, 64, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250,105,0, .7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 
 #landing {
   position: relative;
-  background: url(../img/codepic.jpeg) no-repeat;
+  background: url(http://www.pngmart.com/files/4/Water-Drops-Transparent-Background.png) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: white;
-  background-color: #339966;
+  color: #222;
+  background-color: #c9cdb7;
   height: 100%;
   padding-bottom: 0;
   margin-bottom: 0;
   width: 100%;
   /* particleground demo */ }
   #landing .overlay {
-    background-color: rgba(0, 0, 0, 0.8); }
+    background-color: rgba(150, 197, 194, 0.8); }
   #landing .tall {
     height: 100%; }
   #landing h1 {
@@ -58,7 +60,7 @@ body {
   #landing .fa {
     color: #ffbc00; }
   #landing a:hover {
-    background-color: #777; }
+    background-color: #555; }
   #landing * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -66,33 +68,33 @@ body {
 
 #about {
   color: black;
-  background-color: grey; }
+  background-color: #c9cdb7; }
   #about h4 {
     line-height: 2.2rem; }
 
 #skills {
-  background-color: #339966;
-  color: black; }
+  background-color: #E0E4CC;
+  color: #96c5c2; }
   #skills h1 {
-    color: black; }
+    color: #222; }
   #skills h3 {
-    color: white;
+    color: #333;
     margin-top: 0.5rem;
     margin-bottom: 0.75rem; }
   #skills p {
-    color: black; }
+    color: #222; }
   #skills hr {
     width: 200px;
-    height: 2px; }
+    background-color: #FA6900; }
 
 #projects {
-  background-color: #339966;
+  background-color: #c9cdb7;
   overflow-x: hidden; }
   #projects h1 {
-    color: black; }
+    color: #222; }
   #projects hr {
     width: 200px;
-    background-color: #fff; }
+    background-color: #FA6900; }
   #projects img {
     border: 1px solid black; }
   #projects .content {
@@ -216,22 +218,18 @@ body {
   #projects .blur-on-hover:hover {
     filter: blur(4px); }
 
-#contact {
-  background-color: #339966;
-  overflow-x: hidden; }
-  #contact h2 {
-    color: #339966; }
-  #contact a {
-    text-decoration: none; }
-  #contact .btn-main {
-    color: #e0e0e0; }
-  #contact button:hover {
-    cursor: pointer; }
-  #contact i {
-    color: #339966; }
-  #contact i:hover {
-    color: #339966;
-    opacity: 0.7; }
+#modals .modal-header {
+  border-bottom: 1px solid #e15e00; }
+
+#modals .modal-footer {
+  border-top: 1px solid #e15e00; }
+
+#modals .modal-content {
+  background-color: #c9cdb7;
+  color: #222; }
+
+#modals span {
+  color: #222; }
 
 #modals .borders {
   border: 1px solid black; }
@@ -239,5 +237,23 @@ body {
 #modals .modal-title {
   font-size: 1.5rem; }
 
-#modals .btn-primary {
-  background-color: #339966; }
+#modals .btn-secondary {
+  background-color: #888;
+  color: #222; }
+
+#contact {
+  background-color: #c9cdb7;
+  overflow-x: hidden; }
+  #contact h2 {
+    color: #E0E4CC; }
+  #contact a {
+    text-decoration: none; }
+  #contact .btn-main {
+    color: #e0e0e0; }
+  #contact button:hover {
+    cursor: pointer; }
+  #contact i {
+    color: #E0E4CC; }
+  #contact i:hover {
+    color: #E0E4CC;
+    opacity: 0.7; }

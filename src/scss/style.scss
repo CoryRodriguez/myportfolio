@@ -22,7 +22,8 @@ $green: rgba(51, 153, 102, 1);
 $green2: #b8ffda;
 $theme-colors: (primary: rgba(254, 215, 102, 1));
 $bg: rgba(0, 0, 0, 0.2);
-$navText: black;
+$navText: #222;
+$primary1: #E0E4CC;
 
 html,
 body {
@@ -30,39 +31,41 @@ body {
   height: 100%;
   width: 100%; //overflow-x: hidden;
   ::selection {
-    background: $green;
+    background: $primary1;
     /* WebKit/Blink Browsers */
   }
   ::-moz-selection {
-    background: $green;
+    background: $primary1;
     /* Gecko Browsers */
   }
 }
 
 #nav-main {
   // border-bottom: 1px solid #000;
-  background-color: $green;
-  border-bottom: 1px solid black;
+  background-color: $primary1;
+  border-bottom: 1px solid #63614F;
   font-weight: 0;
   font-size: 1.25rem;
   .nav-link {
     color: $navText;
   }
   a:hover {
-    color: white;
+    color: #e15e00;
   }
   .navbar-brand {
     color: $navText;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 500;
   }
   .navbar-toggler {
-    border-color: $navText;
+    border-color: #96c5c2;
+    border-width: 2px;
   }
   .navbar-toggler {
     outline: none;
   }
   .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(52, 58, 64, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250,105,0, .7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
 }
 
@@ -86,7 +89,7 @@ body {
 #landing {
   position: relative;
   //background: url(../img/cclanding.jpg) no-repeat; //background-position: center 50%;
-  background: url(../img/codepic.jpeg) no-repeat; //background-position: center 50%;
+  background: url(http://www.pngmart.com/files/4/Water-Drops-Transparent-Background.png) no-repeat; //background-position: center 50%;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -97,14 +100,14 @@ body {
   //background-attachment: fixed;
   //margin: 0;
   //min-height:100%;
-  color: white;
-  background-color: $green;
+  color: #222;
+  background-color: #c9cdb7;
   height: 100%;
   padding-bottom: 0;
   margin-bottom: 0;
   width: 100%;
   .overlay {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(150, 197, 194, .8);
   }
   .tall {
     height: 100%; //width:100%;
@@ -124,7 +127,7 @@ body {
   // 	border-radius: 0px;
   // }
   a:hover {
-    background-color: #777;
+    background-color: #555;
   }
   /* particleground demo */
   * {
@@ -136,7 +139,7 @@ body {
 
 #about {
   color: black; //background-color: #333;
-  background-color: grey;
+  background-color: #c9cdb7;
 
   h4 {
     line-height: 2.2rem;
@@ -144,23 +147,24 @@ body {
 }
 
 #skills {
-  background-color: $green;
-  color: black;
+  background-color: $primary1;
+  color: #96c5c2;
 
   h1 {
-    color: black;
+    color: #222;
   }
   h3 {
-    color: white;
+    color: #333;
     margin-top: 0.5rem;
     margin-bottom: 0.75rem;
   }
   p {
-    color: black; //margin-top: 1rem;
+    color: #222; //margin-top: 1rem;
   }
   hr {
     width: 200px;
-    height: 2px;
+    background-color: #FA6900;
+
   }
 }
 
@@ -168,15 +172,15 @@ body {
   //border-top: 15px solid #333;
   // padding-top: 26px;
   // margin-top: -26px;
-  background-color: $green;
+  background-color: #c9cdb7;
   overflow-x: hidden;
 
   h1 {
-    color: black;
+    color: #222;
   }
   hr {
     width: 200px;
-    background-color: #fff;
+    background-color: #FA6900;
   }
   img {
     border: 1px solid black;
@@ -341,39 +345,53 @@ body {
   }
 }
 
-#contact {
-  background-color: $green;
-  overflow-x: hidden;
-  h2 {
-    color: $green;
-  }
-  a {
-    text-decoration: none;
-  }
-  .btn-main {
-    //background-color: $green;
-    color: #e0e0e0;
-  }
-  button:hover {
-    cursor: pointer;
-  }
-  i {
-    color: $green;
-  }
-  i:hover {
-    color: $green;
-    opacity: 0.7;
-  }
-}
-
 #modals {
+  .modal-header{
+    border-bottom: 1px solid #e15e00;
+  }
+    .modal-footer{
+    border-top: 1px solid #e15e00;
+  }
+  .modal-content{
+    background-color: #c9cdb7;
+    color: #222;
+  }
+  span{
+    color: #222;
+  }
   .borders {
     border: 1px solid black;
   }
   .modal-title {
     font-size: 1.5rem;
   }
-  .btn-primary {
-    background-color: $green;
+  .btn-secondary {
+    background-color: #888;
+    color: #222;
+  }
+}
+
+#contact {
+  background-color: #c9cdb7;
+  overflow-x: hidden;
+  h2 {
+    color: $primary1;
+  }
+  a {
+    text-decoration: none;
+  }
+  .btn-main {
+    //background-color: $primary1;
+    color: #e0e0e0;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  i {
+    color: $primary1;
+  }
+  i:hover {
+    color: $primary1;
+    opacity: 0.7;
   }
 }
